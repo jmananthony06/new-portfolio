@@ -779,10 +779,20 @@ footer .socialIcons i:hover {
     
     .rectanglesContainer {
         width: 800px;
+        max-width: 1024px;
+        margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-right: 120px;
+    }
+
+    .rectanglesContainer h1 {
+        font-size: 70px;
+    }
+
+    .rectanglesContainer p {
+        font-size: 30px;
     }
 
     .greyRectangle {
@@ -811,6 +821,7 @@ footer .socialIcons i:hover {
     .cartoonImageContainer {
         margin-top: 10px;
         width: 100%;
+        max-width: 1024px;
     }
 
     .timelineGraphContainer {
@@ -818,6 +829,7 @@ footer .socialIcons i:hover {
         width: 67%;
         margin: auto;
         margin-top: -250px;
+        max-width: 680px;
     }
 
     .horizontalLine {
@@ -874,4 +886,6 @@ footer .socialIcons i:hover {
     }
 
 }
+
+
 
